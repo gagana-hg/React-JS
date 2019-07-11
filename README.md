@@ -1,5 +1,4 @@
 # React-JS
-React JS
 
 About React 
 1.	Developed by Facebook.
