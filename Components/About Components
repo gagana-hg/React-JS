@@ -1,0 +1,19 @@
+Components: 
+  . Building blocks, 
+  . Represents a part of UI, 
+  . Reusable with different properties e.g.: one sideNav for left and right, 
+  . One component can contain another component e.g.: App component contain other components
+  . Components are placed inside JS file (e.g.: App Component is placed in App.js file)
+
+Two types of component
+    1.	Functional: Stateless, return HTML tag
+          . Accepts input of properties and return HTML that describes UI.
+          . Specify as custom HTML tag.
+          . If there is no content use closing tag.
+          . Use arrow function
+    2.	Class: Statefull, ES6 classes which extends Component class, must contain Render method which will return HTML.
+          . Can maintain private internal state.
+          . 2 imports - react and component class from react.
+          . Must extend from component class.
+          . Implement render method which will return null or HTML.
+
