@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Javascript function
 //function Greet()
 //{
 //  return <h1> Hey You </h1>
