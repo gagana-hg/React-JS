@@ -3,11 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import FunctionComponent from './Components/FunctionComponent' 
 import ClassComponent from './Components/ClassComponent'
-import JSX from './Components/JSX'
-import Subscribe from './Components/States_01'
-import Counter from './Components/Counter'
 
-//we can import with any name(if default export is used) for named export we need to use same name inside braces{}
+//We can import with components by any name if default export is used, 
+//For named export we need to use same name inside braces{}
 // import {Greet} from './Components/Greet' 
 
 function App() {
@@ -23,10 +21,7 @@ function App() {
      <button> Click Me </button>
      </ClassComponent>
      <ClassComponent property=": Second Class Props"/>
-     <JSX/> 
-     <Subscribe/>
-     <Counter/>
-    </div>
+     </div>
   );
 }
 export default App;
