@@ -25,7 +25,8 @@ A new folder is created with app name, navigate into the folder with __cd__ comm
      3. **App.css** - For styling purpose.
      4. **index.css** - Applies styles on body tag.
 
-**What happens when we run** `npm start` **?**
+**What happens when we run** `npm start` **?**  
+
   `index.html` is served in the browser which contains *root* DOM node, next it enters to `index.js` here ReactDOM renders the 
   *app* component onto the *root* DOM node. App component (App.js) contains the HTML code which is ultimately displayed in the browser.
 
