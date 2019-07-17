@@ -22,19 +22,19 @@
     import React from 'react'
 
     //Simple Functional component
-    function Greet(props)
+    function Greet()
     {
-      return <h1> Hello , {props.name} </h1>
+      return <h1> Hello user </h1>
     }
    
    
     //Using Arrow function of ES6
-    const Greet = props => 
+    const Greet => 
     {
         return (
             <div>
                 <h1> 
-                    Hello, {props.name}
+                    Hello user
                 </h1>
             </div>
         )
@@ -61,7 +61,7 @@
           {
               return( 
                   <div>
-                      <h1> Hello, {this.props.name}</h1>
+                      <h1> Hello user</h1>
                   </div>
               )
           }
@@ -85,10 +85,8 @@
       return (
         <div className="App">
         //Calling components
-        <FunctionComponent property=" User">
-         </FunctionComponent>
-         <ClassComponent property=" User">
-         </ClassComponent>
+        <FunctionComponent/>
+        <ClassComponent/>
        </div>
           );
       }
