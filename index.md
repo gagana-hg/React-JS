@@ -7,4 +7,4 @@
   __5. [JSX](https://github.com/gagana-hg/React-JS/blob/master/JSX.md) :__ Comparison of react component with and without using JSX.    
   __6. [Destructuring](https://github.com/gagana-hg/React-JS/blob/master/Destructuring.md) :__ Destructuring in functional and class component.   
   __7. [Event Handling](https://github.com/gagana-hg/React-JS/blob/master/EventHandling.md) :__ Handling events in components and understanding event binding in class component    
-  
+  __8. [Passing Props](https://github.com/gagana-hg/React-JS/blob/master/PassingProps.md) :__ Pass methods as props. 
