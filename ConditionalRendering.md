@@ -1,5 +1,5 @@
 
-Why conditional rendering is required ?    
+__Why conditional rendering is required ?__    
   When distinct components are created and we need to render these components depending on the state of the application.   
 
 __Following are the different types of conditional rendering__
@@ -64,4 +64,52 @@ class ConditionalRender extends Component {
     }
 }
 export default ConditionalRender
+```
+
+__3. Using Ternary conditional operator__
+
+```Javascript
+import React, { Component } from 'react'
+
+ class ConditionalRender extends Component {
+     constructor(props) {
+         super(props)
+     
+         this.state = {
+              isLoggedIn: false
+         }
+     }
+     
+    render() {
+        return(
+            this.state.isLoggedIn ?
+            <div> Welcome to conditional rendering topic </div> :
+            <div>Thank you</div>
+        )
+    }
+}
+
+export default ConditionalRender
+```
+
+__4. Using Short Circuit operator :__ This method is suitable when we want to fetch components or nothing.    
+In the below example when `isLoggedIn` is `true` _Welcome to conditional rendering topic_ is displayed else it would be a empty screen.    
+
+```Javascript
+class ConditionalRender extends Component {
+     constructor(props) {
+         super(props)
+     
+         this.state = {
+              isLoggedIn: true
+         }
+     }
+     
+     render() {
+     return this.state.isLoggedIn && <div> Welcome to conditional rendering topic </div>
+     }
+}
+
+export default ConditionalRender
+
 ```
