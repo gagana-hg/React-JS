@@ -1,6 +1,6 @@
 
 __Why conditional rendering is required ?__    
-  When distinct components are created and we need to render these components depending on the state of the application.   
+    When distinct components are created and we need to render these components depending on the state of the application.   
 
 __Following are the different types of conditional rendering__
   1. if/else    
@@ -109,7 +109,9 @@ class ConditionalRender extends Component {
      return this.state.isLoggedIn && <div> Welcome to conditional rendering topic </div>
      }
 }
-
 export default ConditionalRender
 
 ```
+
+The ideal approach is to use ternary operator.   
+
