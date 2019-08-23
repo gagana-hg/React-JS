@@ -29,7 +29,8 @@ You don't control the flow react will do it for you.
   __8. [Passing Props](https://github.com/gagana-hg/React-JS/blob/master/PassingProps.md) :__ Pass methods as props.   
   __9. [Conditional Rendering](https://github.com/gagana-hg/React-JS/blob/master/ConditionalRendering.md) :__ Different approches used in conditional rendering.    
   __10. [List Rendering](https://github.com/gagana-hg/React-JS/blob/master/ListRendering.md) :__ Understanding about List rendering, use of `map()` method, passing `key` as props, index as key.    
-  __11. [Styling & CSS](https://github.com/gagana-hg/React-JS/blob/master/Styling%26CSS.md) :__ Different ways of styling react component.    
+  __11. [Styling & CSS](https://github.com/gagana-hg/React-JS/blob/master/Styling%26CSS.md) :__ Different ways of styling react component.  
+  __12. [Basic of Forms](https://github.com/gagana-hg/React-JS/blob/master/FormHandling.md):__ About controlled and uncontrolled forms.    
 
     
   
